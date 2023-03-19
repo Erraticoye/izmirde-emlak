@@ -1,0 +1,31 @@
+.navbar-li {
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.navbar-li:hover {
+    background: #1c9db8;
+    color: #fff;
+}
+.navbar-links {
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+.navbar-buttons {
+    padding: 20px;
+    text-align: center;
+    background: #1c9db8;
+}
+.navbar-buttons:hover {
+    background: #1c9db8;
+    color: #fff;
+}
+.navbar-buttons a {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+#AramaButonu {
+     border-bottom-left-radius: 0px;
+     border-top-left-radius: 0px;
+}
+#AramaKutusu {
+     border-bottom-right-radius: 0px;
+     border-top-right-radius: 0px;
+}

@@ -165,12 +165,49 @@
                                 <table class="table my-0" id="dataTable">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
+                                            <th>İsim</th>
                                             <th>İlçe</th>
+                                            <th>E-posta</th>
                                             <th>Abonelik Tarihi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    <!-- Tablo İçi -->
+                                    <!-- Örnek Kullanım:
+                                     <tr>
+                                        <td>İsim</td>
+                                        <td>İlçe</td>
+                                        <td>Abonelik Tarihi</td>
+                                    </tr>
+                                     -->
+                                    <?php
+                                        if (isset($_GET['sirala'])) {
+                                            $aboneler = abone_getir($con);
+                                            foreach ($aboneler as $abone) {
+                                                ?>
+                                                <tr>
+                                                    <td><?php echo $abone['İsim_Soyisim']; ?></td>
+                                                    <td><?php echo $abone['ilce']; ?></td>
+                                                    <td><?php echo $abone['E-posta']; ?></td>
+                                                    <td><?php echo $abone['abone_tarih']; ?></td>
+                                                </tr>
+                                                <?php
+                                            }
+                                        } else {
+                                            $aboneler = $db->prepare("SELECT * FROM aboneler ORDER BY abone_id DESC LIMIT 10");
+                                            $aboneler->execute();
+                                            $abonecek = $aboneler->fetchAll(PDO::FETCH_ASSOC);
+                                            foreach ($abonecek as $row) {
+                                                ?>
+                                                <tr>
+                                                    <td><?php echo $row['abone_isim']; ?></td>
+                                                    <td><?php echo $row['abone_ilce']; ?></td>
+                                                    <td><?php echo $row['abone_tarih']; ?></td>
+                                                </tr>
+                                                <?php
+                                            }
+                                        }
+                                    ?>
                                         <tr>
                                             <td>Airi Satou</td>
                                             <td>Tokyo</td>

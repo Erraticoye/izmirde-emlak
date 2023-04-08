@@ -4,57 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd2d8036-2942-4758-93af-acf2fb247e4c" name="Changes" comment="Yapımda">
-      <change afterPath="$PROJECT_DIR$/Admin/aboneler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/PHP/connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/PHP/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/PHP/headcodes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/PHP/sidebar_navbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/fonts/fontawesome-all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/img/avatars/avatar1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/img/avatars/avatar2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/img/avatars/avatar3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/img/avatars/avatar4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/img/avatars/avatar5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/img/dogs/image2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/img/dogs/image3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/aboneler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/bs-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/assets/js/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/giris.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Admin/profil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abonelik.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/headerstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/indexstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hata/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="dd2d8036-2942-4758-93af-acf2fb247e4c" name="Changes" comment="Değişiklikler:&#10;1- 404 Sayfası&#10;2- Yeni Admin Panel&#10;3- Giriş Sistemi&#10;4- Aboneleri Listeleme(Yeniden Yapılıyor Daha Bitmedi)">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f08d6c28-9eef-456a-ae67-2a5f81bd6df8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f08d6c28-9eef-456a-ae67-2a5f81bd6df8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/izmirde-emlak.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/izmirde-emlak.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/aboneler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/aboneler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/assets/PHP/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/assets/PHP/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +149,8 @@
       <workItem from="1680186978735" duration="82000" />
       <workItem from="1680187077207" duration="1228000" />
       <workItem from="1680274353392" duration="9373000" />
-      <workItem from="1680536862006" duration="3704000" />
+      <workItem from="1680536862006" duration="5268000" />
+      <workItem from="1680701618581" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="Yapımda">
       <created>1679211984767</created>
@@ -211,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679220975522</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Değişiklikler:&#10;1- 404 Sayfası&#10;2- Yeni Admin Panel&#10;3- Giriş Sistemi&#10;4- Aboneleri Listeleme(Yeniden Yapılıyor Daha Bitmedi)">
+      <created>1680547781748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680547781748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +193,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Yapımda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yapımda" />
+    <MESSAGE value="Değişiklikler:&#10;1- 404 Sayfası&#10;2- Yeni Admin Panel&#10;3- Giriş Sistemi&#10;4- Aboneleri Listeleme(Yeniden Yapılıyor Daha Bitmedi)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Değişiklikler:&#10;1- 404 Sayfası&#10;2- Yeni Admin Panel&#10;3- Giriş Sistemi&#10;4- Aboneleri Listeleme(Yeniden Yapılıyor Daha Bitmedi)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

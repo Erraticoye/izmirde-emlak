@@ -52,3 +52,14 @@ function random_num($length)
 
 	return $text;
 }
+
+function abone_getir($con)
+{
+    $query = "select * from aboneler";
+    $result = mysqli_query($con,$query);
+    if($result && mysqli_num_rows($result) > 0)
+    {
+        $abone_data = mysqli_fetch_all($result,MYSQLI_ASSOC);
+        return $abone_data;
+    }
+}
